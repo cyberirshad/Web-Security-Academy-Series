@@ -2,6 +2,8 @@ Lab #4 - CSRF where token is not tied to user session
 
 Vulnerable parameter - email change functionality
 
+https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-not-tied-to-user-session
+
 Goal - exploit CSRF to change email address
 
 Credentials - wiener:peter, carlos:montoya
