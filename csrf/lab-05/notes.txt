@@ -2,6 +2,8 @@ Lab #5 - CSRF where token is tied to non-session cookie
 
 Vulnerable parameter - email change functionality
 
+https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-tied-to-non-session-cookie
+
 Goal - exploit CSRF to change email address
 
 Creds - wiener:peter, carlos:montoya
@@ -31,6 +33,7 @@ csrfKey cookie: ho7GGxMe4EZSrQ8xZ0sBDq2yW0ey9bKH
 In order to exploit this vulnerability, we need to perform 2 things:
 1. Inject a csrfKey cookie in the user's session (HTTP Header injection) - satisfied
 2. Send a CSRF attack to the victim with a known csrf token
+
 
 
 
