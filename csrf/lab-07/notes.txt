@@ -2,6 +2,8 @@ Lab #7 - CSRF where Referer validation depends on header being present
 
 Vulnerable parameter - email change functionality
 
+https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses/lab-referer-validation-depends-on-header-being-present
+
 Goal - exploit CSRF to change email address
 
 Creds - wiener:peter
